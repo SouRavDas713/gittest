@@ -4,7 +4,7 @@ const appointmentSchema = mongoose.Schema(
   {
     userId: { type: String, required: true },
     userName: { type: String, required: true },
-    
+    //js
     // --- নতুন ফিল্ডগুলো যোগ করা হলো ---
     userEmail: { type: String, required: true }, 
     time: { type: String, required: true },      
